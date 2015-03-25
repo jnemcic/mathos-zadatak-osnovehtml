@@ -1,0 +1,59 @@
+*{
+	box-sizing:border-box;
+}
+.wrapper{
+	width:1034px;
+	margin:0 auto;
+	font-family: "Times New Roman", Times, serif;
+	background-color:#CEC5B3;
+}
+ul li,ol li{
+	list-style-type: none;
+}
+.header{
+	display: block;
+	text-align:center;
+	padding:0.1%;
+	background-color:black;
+	color: #CEC5B3;
+}
+.section{
+	width:100%;
+    float:left;
+	padding-left:5%;
+}
+.section ol li{
+	 padding: 0.3% 0.5%;
+	 margin:0.5%;
+}
+.albumcover{
+	float:right;
+	padding-right:20%;
+}
+.album_title > :first-child {
+    font-size:120%;
+	background-color: #B9B1A1;
+	padding: 1%;
+}
+.list_albums{
+	padding:1.5%;
+}
+.h2{
+	margin-left:10%;
+	padding:1%;
+}
+.listen{
+	display:block;
+	width:100%;
+    float:left;
+	padding-left:10%;
+}
+.listen1{
+	display:block;
+}
+.back{
+	display: block;
+	padding:2%;
+	color: #CEC5B3;
+	font-size:150%;
+}
